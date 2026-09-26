@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #F6F7F4;
+    --surface: #FFFFFF;
+    --surface-muted: #F0F2EF;
+    --text-primary: #172033;
+    --text-secondary: #667085;
+    
+    --primary: #087F8C;
+    --primary-hover: #066873;
+    --primary-light: #E6F4F2;
+
+    --secondary: #2563EB;
+    --secondary-light: #EEF4FF;
+
+    --success: #168A5B;
+    --success-light: #EAF7F0;
+
+    --warning: #C77A00;
+    --warning-light: #FFF5E5;
+
+    --danger: #C2415A;
+    --danger-light: #FCECEF;
+
+    --border: #E5E7EB;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--text-primary);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  #root {
+    min-height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    border: none;
+    text-align: left;
+  }
+}
+
+/* Premium Fintech Card */
+.fin-card,
+.glass-panel {
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.03), 0 1px 2px -1px rgba(0, 0, 0, 0.03);
+}
+
+/* Restrained Primary Button */
+.btn-primary {
+  background-color: #087F8C;
+  color: #FFFFFF;
+  font-weight: 600;
+  transition: background-color 150ms ease-in-out;
+}
+.btn-primary:hover {
+  background-color: #066873;
+}
+
+/* Clean Secondary Button */
+.btn-secondary {
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  color: #172033;
+  font-weight: 500;
+  transition: all 150ms ease-in-out;
+}
+.btn-secondary:hover {
+  background-color: #F0F2EF;
+  border-color: #D1D5DB;
+}
+
+/* Status Badges */
+.badge-teal {
+  background-color: #E6F4F2;
+  color: #087F8C;
+  border: 1px solid rgba(8, 127, 140, 0.25);
+}
+
+.badge-blue {
+  background-color: #EEF4FF;
+  color: #2563EB;
+  border: 1px solid rgba(37, 99, 235, 0.25);
+}
+
+.badge-success {
+  background-color: #EAF7F0;
+  color: #168A5B;
+  border: 1px solid rgba(22, 138, 91, 0.25);
+}
+
+.badge-warning {
+  background-color: #FFF5E5;
+  color: #C77A00;
+  border: 1px solid rgba(199, 122, 0, 0.25);
+}
+
+.badge-danger {
+  background-color: #FCECEF;
+  color: #C2415A;
+  border: 1px solid rgba(194, 65, 90, 0.25);
+}
+
+.badge-neutral {
+  background-color: #F0F2EF;
+  color: #667085;
+  border: 1px solid #E5E7EB;
+}
+
+/* Clean Subtle Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F6F7F4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D1D5DB;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9CA3AF;
+}
