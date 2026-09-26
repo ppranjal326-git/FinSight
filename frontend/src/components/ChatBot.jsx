@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { MessageCircle, X, Send, Sparkles, ChevronDown } from 'lucide-react';
 
-const API_BASE = 'http://127.0.0.1:8000';
+const API_BASE = 'https://finsight-1-gqzg.onrender.com';
 
 // Simple inline markdown renderer: **bold** and bullet lines
 function RenderMessage({ text }) {

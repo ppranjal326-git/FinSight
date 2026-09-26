@@ -1,4 +1,4 @@
-const API_BASE = '/api';
+const API_BASE = 'https://finsight-1-gqzg.onrender.com';
 
 export async function fetchDashboard() {
   const res = await fetch(`${API_BASE}/dashboard`);
