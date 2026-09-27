@@ -1,5 +1,7 @@
 # FinSight# 💰 FinSight
 
+🔗 **[🚀 Live Demo](https://fin-sight-phi-nine.vercel.app/)**
+
 ### AI-Powered Personal Finance & Financial Risk Assistant
 
 FinSight is an AI-powered personal finance platform designed to help users understand their financial health, analyze their spending and cash flow, identify potential financial risks, and receive personalized financial insights.
